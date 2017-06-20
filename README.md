@@ -8,15 +8,15 @@ Note that everything is handled by the settings which the program looks for in t
 
 ## Script Installation
 
-boot the Pi and run the install script (install.sh) 
-make sure the patch file is at the same level as the install script
-make sure to place EasEEPi.py in the boot folder and a settings XML file to read from
+boot the Pi and run the install script (install.sh) make sure the patch file (rc.local.patch) is at the same level as the install script
+
+Make sure to place EasEEPi.py and a settings XML file to read from in the boot folder.
 
 You have to make your own settings file though there is Gooey-Pi for a easy visual setup.
 
 ## Manual Installation
 
-to get this to run at boot create a folder named audio on the boot partition and put piDAR.py and settings.xml in the boot folder. Then edit rc.local which is found in /etc/ by doing
+to get this to run at boot put EasEEPi.py and settings.xml in the boot folder. Then edit rc.local which is found in /etc/ by doing
 
     sudo nano /etc/rc.local
 	
